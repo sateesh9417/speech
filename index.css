@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: url("https://media.istockphoto.com/vectors/vector-illustration-of-a-businessman-or-politician-speaking-to-a-of-vector-id1031459248?k=20&m=1031459248&s=612x612&w=0&h=_pOHrpn1Z9IH172vdfT6aMrK3hM6aHRjdCE09pHlEPg=");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+  }
+  
+
+  #formBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20vh;
+  }
+  
+  #formBlock h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    padding: 0px 20px;
+  }
+  
+  #formBlock input {
+    padding: 15px;
+    width: 600px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 1px 15px 1px black;
+  }
+  
+  form {
+    position: relative;
+  }
+  
+  form i {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    font-size: 20px;
+    color: #111;
+    text-shadow: 1px 0px 0px red;
+  }
